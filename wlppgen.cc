@@ -1,9 +1,3 @@
-// Starter code for CS241 assignments 9-11
-//
-// C++ translation by Simon Parent (Winter 2011),
-// based on Java code by Ondrej Lhotak,
-// which was based on Scheme code by Gord Cormack.
-// Modified July 3, 2012 by Gareth Davies
 #include <stdlib.h>
 #include <iostream>
 #include <sstream>
@@ -776,12 +770,8 @@ int main() {
         cout << "pop:" << endl;
         pop("$5");
         cout << "jr $31" << endl;
-        
-        //cout << symTable.size() << endl;
         map<string, pair<string, int> >::iterator it;
-//                for (it = symTable.begin(); it != symTable.end(); ++it) {
-//                    cerr << it->first << " " << it->second.first << " " << it->second.second << endl;
-//                }
+
         
     } catch(string msg) {
         cerr << msg << endl;
